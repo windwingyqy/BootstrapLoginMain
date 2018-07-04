@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login Form Template</title>
+    <link rel="stylesheet" href="static/bootstrap/css/bootstrap.min.css">
+    <script src="static/jquery/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="static/sys/css/sysLogin.css">
+    <!-- 通知提示框插件 -->
+    <link rel="stylesheet" href="static/tools/toastr/toastr.css">
+    <script src="static/tools/toastr/toastr.js"></script>
+    <script src="static/sys/js/sysLogin.js"></script>
+</head>
+<body>
+<div class="container">
+
+    <form class="form-signin">
+        <h2 class="form-signin-heading">系统登录</h2>
+        <input type="text" id="userName" class="form-control" placeholder="请输入用户名...">
+        <input type="password" id="inputPassword" class="form-control" placeholder="请输入密码...">
+        <div class="checkbox">
+            <label>
+                <input type="checkbox" value="remember-me"> 记住我
+            </label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" type="button" id="subMitBtn">登录</button>
+    </form>
+
+</div> <!-- /container -->
+</body>
+</html>
